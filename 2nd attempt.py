@@ -11,6 +11,7 @@ addToTextFile = 1
 add = 1
 subs = pysrt.open('1.srt',encoding='latin-1')
 
+# extract .txt files from the subtitles file
 for i in subs:
     #extract start and end time for each word in the subtitles 
     with open(f'F:\\textFiles\\text{addToTextFile}.txt','w',encoding="utf-8") as txtFile:
@@ -19,7 +20,7 @@ for i in subs:
     start = str(i.start)
     end = str(i.end)
     
-    #convert start(H:M:S) and end(H:M:S) into seconds
+    #convert start(H:M:S) and end(H:M:S) for the current sentence into seconds
     startingSecnods = i.start.seconds + (i.start.minutes *60) + (i.start.hours *360) + float(f'0.{start[9:12]}')
     endingSeconds = i.end.seconds + (i.end.minutes *60) + (i.end.hours *360) + float(f'0.{end[9:12]}')
     print(startingSecnods,endingSeconds)
