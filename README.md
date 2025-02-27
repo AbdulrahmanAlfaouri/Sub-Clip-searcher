@@ -1,5 +1,6 @@
 # Sub-Clip-searcher
-a program that gets the clip of a movie that matches a searten searched word in the subtitles 
+a program that gets the clip of a movie that matches a searten searched word in the subtitles
+libraries used spacy, pysrt,re ,moviepy
 
 -the idea is for each sentance we have to extract its 'start' and 'finish' time from the subtitles file and save this sentance in its own .txt file ('1.txt', '2.txt', . . .  and so on)
 -then we cut the movie into small .mp4 file that correspondance with each 'start' and 'finish' times for the .txt files we made 
@@ -18,4 +19,9 @@ a program that gets the clip of a movie that matches a searten searched word in 
 
 # SubClipSeearcher2
   just better in every way
+  no need to manually input the movie and subtitles files direcory in the script just click on them in and the script gets them
+  no need to extract all the sentances just finds the similar word from the subtitles file then extarcts the movie clip that corrisponds to it
+  libraries used spacy, pysrt,re ,moviepy, tkinter ,logging
+
+
 
