@@ -1,7 +1,7 @@
 # Sub-Clip-searcher
 a program that gets the clip of a movie that matches a searten searched word in the subtitles 
 
--the idea is for each sentance we have to extract its 'start' and 'finish' time from the subtitles file and save this sentance in its own .txt file like '1.txt' then '2.txt' and so on
+-the idea is for each sentance we have to extract its 'start' and 'finish' time from the subtitles file and save this sentance in its own .txt file ('1.txt', '2.txt', . . .  and so on)
 -then we cut the movie into small .mp4 file that correspondance with each 'start' and 'finish' times for the .txt files we made 
 -then when we input a sentance we want to search the program fist searches all the subtitles then gets the 'start' and 'end' time for that sentance then it extract the clip from the movie from the 'start' to the 'end' times' which in correspondance will have the sentance we inputed
 
@@ -13,6 +13,6 @@ a program that gets the clip of a movie that matches a searten searched word in 
 2-the 2nd attempt
   same as the 1st attempt but uses pysrt which make it easer to work with the subtitles file
 
--the 'main' script file
+3-the 'main' script file
   here we get the .txt files we extracted then compare the sentance we inputed to search it the sentances in each of the .txt file and get the .mp4 clip from the movie that corrisponde to that sentance
 
