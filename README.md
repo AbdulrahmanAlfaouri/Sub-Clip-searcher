@@ -17,5 +17,5 @@ a program that gets the clip of a movie that matches a searten searched word in 
   here we get the .txt files we extracted then compare the sentance we inputed to search it the sentances in each of the .txt file and get the .mp4 clip from the movie that corrisponde to that sentance
 
 # SubClipSeearcher2
-    just better in every way hhh
+  just better in every way
 
